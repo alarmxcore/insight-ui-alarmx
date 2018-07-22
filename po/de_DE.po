@@ -23,29 +23,29 @@ msgstr "404 Seite nicht gefunden :("
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target="
-"\"_blank\">open-source GoByte blockchain explorer</a> with complete REST "
+"\"_blank\">open-source Alarmx blockchain explorer</a> with complete REST "
 "and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by gobyted RPC.  "
-"Check out the <a href=\"https://github.com/gobytecoin/insight-ui-gobyte\" target=\"_blank"
+"that need more advanced blockchain queries than provided by alarmxd RPC.  "
+"Check out the <a href=\"https://github.com/alarmxcore/insight-ui-alarmx\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
 "<strong>insight</strong> ist ein <a href=\"http://live.insight.is/\" target="
-"\"_blank\">Open Source GoByte Blockchain Explorer</a> mit vollständigen "
+"\"_blank\">Open Source Alarmx Blockchain Explorer</a> mit vollständigen "
 "REST und Websocket APIs um eigene Wallets oder Applikationen zu "
 "implementieren. Hierbei werden fortschrittlichere Abfragen der Blockchain "
-"ermöglicht, bei denen die RPC des gobyted nicht mehr ausreichen. Der "
-"aktuelle <a href=\"https://github.com/gobytecoin/insight-ui-gobyte\" target=\"_blank"
+"ermöglicht, bei denen die RPC des alarmxd nicht mehr ausreichen. Der "
+"aktuelle <a href=\"https://github.com/alarmxcore/insight-ui-alarmx\" target=\"_blank"
 "\">Quellcode</a> ist auf Github zu finden."
 
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong> is still in development, so be sure to report any "
 "bugs and provide feedback for improvement at our <a href=\"https://github."
-"com/gobytecoin/insight/issues\" target=\"_blank\">github issue tracker</a>."
+"com/alarmxcore/insight/issues\" target=\"_blank\">github issue tracker</a>."
 msgstr ""
 "<strong>insight</strong> befindet sich aktuell noch in der Entwicklung. "
 "Bitte sende alle gefundenen Fehler (Bugs) und Feedback zur weiteren "
-"Verbesserung an unseren <a href=\"https://github.com/gobytecoin/insight-ui-gobyte/issues"
+"Verbesserung an unseren <a href=\"https://github.com/alarmxcore/insight-ui-alarmx/issues"
 "\" target=\"_blank\">Github Issue Tracker</a>."
 
 #: public/views/index.html
@@ -69,8 +69,8 @@ msgid "Best Block"
 msgstr "Bester Block"
 
 #: public/views/status.html
-msgid "GoByte node information"
-msgstr "GoByte-Node Info"
+msgid "Alarmx node information"
+msgstr "Alarmx-Node Info"
 
 #: public/views/block.html
 msgid "Block"
@@ -91,11 +91,11 @@ msgstr "Serialisierte Bytes"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to gobyted to get live updates from the p2p network. (Tried "
-"connecting to gobyted at {{host}}:{{port}} and failed.)"
+"Can't connect to alarmxd to get live updates from the p2p network. (Tried "
+"connecting to alarmxd at {{host}}:{{port}} and failed.)"
 msgstr ""
-"Es ist nicht möglich mit gobyted zu verbinden um live Aktualisierungen vom "
-"P2P Netzwerk zu erhalten. (Verbindungsversuch zu gobyted an {{host}}:"
+"Es ist nicht möglich mit alarmxd zu verbinden um live Aktualisierungen vom "
+"P2P Netzwerk zu erhalten. (Verbindungsversuch zu alarmxd an {{host}}:"
 "{{port}} ist fehlgeschlagen.)"
 
 #: public/views/includes/connection.html
@@ -199,8 +199,8 @@ msgid "Last Block"
 msgstr "Letzter Block"
 
 #: public/views/status.html
-msgid "Last Block Hash (gobyted)"
-msgstr "Letzter Hash (gobyted)"
+msgid "Last Block Hash (alarmxd)"
+msgstr "Letzter Hash (alarmxd)"
 
 #: public/views/index.html
 msgid "Latest Blocks"

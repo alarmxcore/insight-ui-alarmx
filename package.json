@@ -1,8 +1,8 @@
 {
-  "name": "insight-ui-gobyte",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the GoByte network and build your own services with it.",
+  "name": "insight-ui-alarmx",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Alarmx network and build your own services with it.",
   "version": "0.4.3",
-  "repository": "git://github.com/gobytecoin/insight-ui-gobyte.git",
+  "repository": "git://github.com/alarmxcore/insight-ui-alarmx.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -26,19 +26,19 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/gobytecoin/insight-ui-gobyte/issues"
+    "url": "https://github.com/alarmxcore/insight-ui-alarmx/issues"
   },
-  "homepage": "https://github.com/gobytecoin/insight-ui-gobyte",
+  "homepage": "https://github.com/alarmxcore/insight-ui-alarmx",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "gobyte",
-    "bitcore-gobyte",
+    "alarmx",
+    "bitcore-alarmx",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-gobyte",
+  "bitcoreNode": "bitcore-node-alarmx",
   "dependencies": {
   },
   "devDependencies": {

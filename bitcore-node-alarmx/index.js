@@ -9,16 +9,16 @@ var InsightUI = function(options) {
   if (typeof options.apiPrefix !== 'undefined') {
     this.apiPrefix = options.apiPrefix;
   } else {
-    this.apiPrefix = 'insight-api-gobyte';
+    this.apiPrefix = 'insight-api-alarmx';
   }
   if (typeof options.routePrefix !== 'undefined') {
     this.routePrefix = options.routePrefix;
   } else {
-    this.routePrefix = '';
+    this.routePrefix = 'insight';
   }
 };
 
-InsightUI.dependencies = ['insight-api-gobyte'];
+InsightUI.dependencies = ['insight-api-alarmx'];
 
 inherits(InsightUI, BaseService);
 

@@ -1,29 +1,29 @@
-# Insight UI GoByte
+# Insight UI Alarmx
 
-A GoByte blockchain explorer web application service for [Bitcore Node GoByte](https://github.com/gobytecoin/bitcore-node-gobyte) using [Insight API GoByte](https://github.com/gobytecoin/insight-api-gobyte).
+A Alarmx blockchain explorer web application service for [Bitcore Node Alarmx](https://github.com/alarmxcore/bitcore-node-alarmx) using [Insight API Alarmx](https://github.com/alarmxcore/insight-api-alarmx).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/gobytecoin/bitcore-gobyte).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/alarmxcore/bitcore-alarmx).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g bitcore-node-gobyte
-bitcore-node-gobyte create mynode
+npm install -g bitcore-node-alarmx
+bitcore-node-alarmx create mynode
 cd mynode
-bitcore-node-gobyte install insight-api-gobyte
-bitcore-node-gobyte install insight-ui-gobyte
-bitcore-node-gobyte start
+bitcore-node-alarmx install insight-api-alarmx
+bitcore-node-alarmx install insight-ui-alarmx
+bitcore-node-alarmx start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
 
 ## Development
 
-To run Insight UI GoByte locally in development mode:
+To run Insight UI Alarmx locally in development mode:
 
 Install bower dependencies:
 
@@ -45,7 +45,7 @@ $ grunt
 
 ## Multilanguage support
 
-Insight UI GoByte uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
+Insight UI Alarmx uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
 
 To enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/gobytecoin/insight-api-gobyte) configuration and end-points, go to [Insight API GitHub repository](https://github.com/gobytecoin/insight-api-gobyte).
+For more details about the [Insight API](https://github.com/alarmxcore/insight-api-alarmx) configuration and end-points, go to [Insight API GitHub repository](https://github.com/alarmxcore/insight-api-alarmx).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GoByte GitHub repository](https://github.com/gobytecoin/insight-ui-gobyte).
+Contributions and suggestions are welcomed at the [Insight UI Alarmx GitHub repository](https://github.com/alarmxcore/insight-ui-alarmx).
 
 
 ## License
