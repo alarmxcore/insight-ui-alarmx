@@ -75,11 +75,11 @@ msgstr "最良ブロック"
 
 #: public/views/messages_verify.html
 msgid "Alarmx comes with a way of signing arbitrary messages."
-msgstr "Alarmxには任意のメッセージを署名する昨日が備わっています。"
+msgstr "Dashには任意のメッセージを署名する昨日が備わっています。"
 
 #: public/views/status.html
 msgid "Alarmx node information"
-msgstr "Alarmxノード情報"
+msgstr "Dashノード情報"
 
 #: public/views/block.html
 msgid "Block"
@@ -428,7 +428,7 @@ msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
 "        the Alarmx network."
 msgstr ""
-"このフォームでは、16進数フォーマットの生のトランザクションをAlarmxネットワー"
+"このフォームでは、16進数フォーマットの生のトランザクションをDashネットワー"
 "ク上に配信することができます。"
 
 #: public/views/messages_verify.html
@@ -436,7 +436,7 @@ msgid ""
 "This form can be used to verify that a message comes from\n"
 "        a specific Alarmx address."
 msgstr ""
-"このフォームでは、メッセージが特定のAlarmxアドレスから来たかどうかを検証する"
+"このフォームでは、メッセージが特定のDashアドレスから来たかどうかを検証する"
 "ことができます。"
 
 #: public/views/status.html
@@ -453,7 +453,7 @@ msgstr "今日"
 
 #: public/views/status.html
 msgid "Total Amount"
-msgstr "Alarmx総量"
+msgstr "Dash総量"
 
 #: public/views/address.html
 msgid "Total Received"
