@@ -20,10 +20,10 @@ angular.module('insight.currency').controller('CurrencyController',
 
         if (this.symbol === 'USD') {
           response = _roundFloat((value * this.factor), 2);
-        } else if (this.symbol === 'mINN') {
+        } else if (this.symbol === 'mALRMX') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
-        } else if (this.symbol === 'uINN') {
+        } else if (this.symbol === 'uALRMX') {
           this.factor = 1000000;
           response = _roundFloat((value * this.factor), 2);
         } else {
@@ -47,9 +47,9 @@ angular.module('insight.currency').controller('CurrencyController',
         Currency.get({}, function(res) {
           $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
         });
-      } else if (currency === 'mINN') {
+      } else if (currency === 'mALRMX') {
         $rootScope.currency.factor = 1000;
-      } else if (currency === 'uINN') {
+      } else if (currency === 'uALRMX') {
         $rootScope.currency.factor = 1000000;
       } else {
         $rootScope.currency.factor = 1;
