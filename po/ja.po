@@ -436,7 +436,7 @@ msgid ""
 "This form can be used to verify that a message comes from\n"
 "        a specific Alarmx address."
 msgstr ""
-"このフォームでは、メッセージが特定のAlarmxアドレスから来たかどうかを検証する"
+"このフォームでは、メッセージが特定のAlarmx'アドレスから来たかどうかを検証する"
 "ことができます。"
 
 #: public/views/status.html
