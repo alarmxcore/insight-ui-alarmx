@@ -1,6 +1,6 @@
-# Insight UI Alarmx
+# Insight UI
 
-A Alarmx blockchain explorer web application service for [Bitcore Node Alarmx](https://github.com/alarmxcore/bitcore-node-alarmx) using [Insight API Alarmx](https://github.com/alarmxcore/insight-api-alarmx).
+A Alarmx blockchain explorer web application service for [Bitcore Node](https://github.com/alarmxcore/bitcore-node-alarmx) using [Insight API](https://github.com/alarmxcore/insight-api-alarmx).
 
 ## Quick Start
 
